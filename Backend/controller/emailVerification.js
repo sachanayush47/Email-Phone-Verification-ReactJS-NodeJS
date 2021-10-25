@@ -57,6 +57,7 @@ module.exports = {
                     } else if(validateNumber(email)) {
                         // SENDING SMS AND adding OTP to DB.
                         sendSMS(email, otp).then(result => {
+                            console.log(result);
                             Otp.create({ otp: otp, userId: user._id });
                         })
                     } else {

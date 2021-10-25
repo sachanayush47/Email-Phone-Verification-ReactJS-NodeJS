@@ -15,8 +15,11 @@ input {
 	padding: 5px;
 	min-width: 400px;
 	font-size: 18px;
-	text-transform: capitalize;
 	border-width: 0 0 2px;
+}
+
+#name {
+	text-transform: capitalize;
 }
 
 input:focus {

@@ -44,7 +44,7 @@ function App() {
 			<h1>Email and Phone verification</h1>
 
 			<input id="name" autoComplete="none" type="text" placeholder="Name" required />
-			<input id="email" type="email" placeholder="Email or Phone" required />
+			<input id="email" autoComplete="none" type="email" placeholder="Email or Phone" required />
 			<input id="password" type="password" placeholder="Password" required />
 			<button type="button" onClick={onFormSubmit}>Submit</button>
 

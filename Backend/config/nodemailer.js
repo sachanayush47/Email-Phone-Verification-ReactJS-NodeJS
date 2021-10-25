@@ -12,7 +12,7 @@ const sendEmail = async (email, otp) => {
         });
 
         const mailOptions = {
-            from: "Verification <storyunfold47@gmail.com>",
+            from: "Verification <sachan.ayush27@gmail.com>",
             to: email,
             subject: "Verify your email",
             text: `Your OTP is ${otp}.\nDo not share with anyone`
